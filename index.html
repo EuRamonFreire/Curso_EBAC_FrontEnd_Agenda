@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos - EBAC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <header> 
+            <img src="./image/logo.png" alt="logo">
+            <h1>Agenda de contatos EBAC</h1>
+        </header>
+        <form id="form-agenda">
+                <input type="text" id="nome" required placeholder="Nome" />
+                <input type="email" id="email" required placeholder="Email" />
+                <input type="tel" id="telefone" required placeholder="Telefone" />
+                <button type="submit">Inserir contato</button>
+        </form>
+        <table  cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
